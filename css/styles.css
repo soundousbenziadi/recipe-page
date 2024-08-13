@@ -1,0 +1,116 @@
+
+body
+{
+    margin: 4%;
+    margin-bottom: 0;
+    position: relative;
+    place-content: center;
+    font-family: "Outfit", sans-serif;
+    font-weight:400;
+    line-height: 2;
+    font-size:16px;
+    background-color:hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+}
+h1
+{
+ font-family: "Young Serif", serif;
+ text-align: left;
+ font-weight: lighter;
+}
+h2
+{
+    font-family: "Young Serif", serif;
+    text-align: left;
+    color:hsl(14, 45%, 36%);
+    margin: 0;
+}
+h3
+{
+    color:hsl(332, 51%, 32%);
+    text-align: left;
+    margin: 0;
+}
+.image-omelette
+{
+    width: 100%;
+    border-radius: 20px;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+td
+{
+    width: 50%;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.Preparation{background-color: hsl(330, 100%, 98%);}
+.data2{color: hsl(14, 45%, 36%);}
+p
+{
+    text-align: left;
+}
+hr
+{
+    width: 100%;
+    margin: 2%;
+}
+ul,ol
+{
+    text-align: left;
+    margin: 0;
+    padding-left: 5%;
+}
+li{padding-left: 2%;}
+.ul-1
+  {li::marker 
+    {
+    color: hsl(332, 51%, 32%);
+    }
+  }
+.ul-2,ol
+{
+    li::marker 
+    {
+        color: hsl(14, 45%, 36%);
+    }
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  .outfit{
+    font-family: "Outfit", sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>; */
+  }
+  span{font-weight: bold;}
+  
+  .container
+  {
+    background-color: white;
+    border-radius: 20px;
+    padding: 4%;
+  }
+  .Preparation
+  {
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .attribution 
+  { 
+    font-size: 16px; 
+    text-align: center;
+    padding: 1%; 
+    background-color: hsl(30, 54%, 90%);
+    margin-top: 10px;
+  }
+  a:hover{color: #EAF6F6;}
